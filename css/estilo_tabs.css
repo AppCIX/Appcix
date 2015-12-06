@@ -1,0 +1,66 @@
+.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	/*list-style: none;*/
+	/*height: 21px;*/
+	height: 5px;
+	border-bottom: 1px solid #333;
+	/*border-left: 1px solid #333;*/
+	width: 99%;
+	/*margin-top:5px;*/
+	margin-top:0px;
+	margin-left:2px;
+}
+ul.tabs li {
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #333;
+	border-left: none;
+/*para firefox*/
+	-moz-border-radius:  5px 5px 0px 0px;
+/*para Safari y Chrome*/
+-webkit-border-radius: 5px 5px 0px 0px;
+	margin-bottom: -1px;
+	overflow: hidden;
+	position: relative;
+/*	background: #EBEBEB;*/
+}
+ul.tabs li a {
+	text-decoration: none;
+	/*color: #368ee0;*/
+	color:#c5d52b;
+	font-family:Verdana;
+	font-size:13px;
+	/*font-weight:bold;*/
+	display: block;
+	padding: 0 10px;
+	border-right: 1px solid #333;
+	border-top: 1px solid #333;
+	outline: none;
+	
+}
+ul.tabs li a:hover {
+	background: EFF8F8;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+	/*background: #fff;*/
+	background:#333;
+	/*border-bottom: 1px solid #fff;*/
+}
+li.inactive{
+	display:none;}
+.tab_container {
+	border: 1px solid #333;
+	border-top: none;
+	margin-left:2px;
+	margin-bottom:5px;
+	overflow: hidden;
+	/*clear: both;*/
+	float: left; width: 99%;
+	/*background: #fff;*/
+}
+.tab_content {
+	padding: 5px;
+}
